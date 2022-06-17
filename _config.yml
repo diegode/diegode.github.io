@@ -1,0 +1,19 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Gems
+plugins:          [jekyll-paginate]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Random stuff
+description:      'TBD'
+url:              https://diegode.github.io
+
+timezone:         Europe/Madrid
+paginate:         8
+
+exclude:          [.gitignore, README.md]

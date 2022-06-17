@@ -1,0 +1,42 @@
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+    <title>
+      {% if page.title == "Home" %}
+        {{ site.title }} &middot; {{ site.tagline }}
+      {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
+    </title>
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+          <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+    <!-- Icons -->
+    <link rel="android-chrome-512x512" type="image/png" sizes="512x512" href="/public/favicon/android-chrome-512x512.png">
+    <link rel="android-chrome-192x192" type="image/png" sizes="192x192" href="/public/favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/public/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/public/favicon/favicon.ico">
+  
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [ ['$$','$$'],  ["\\[","\\]"] ], 
+          processEscapes: true
+        }
+      };
+    </script>
+  
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
